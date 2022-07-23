@@ -1,0 +1,85 @@
+ul {
+    list-style: none;
+}
+
+p {
+    margin: 5px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    background-color: azure;
+    margin: 20px 0 20px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px 1px rgba(233, 233, 228, 0.3);
+}
+
+.profile:hover {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 233, 221);
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.avatar {
+    height: 100px;
+    margin: 10px 0 10px 0;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.tag {
+    font-size: 16px;
+    color: grey;
+}
+
+.location {
+    font-size: 16px;
+    color: grey;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.label {
+    font-size: 14px;
+    color: grey;
+}
+
+.quantity {
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 700;
+}
